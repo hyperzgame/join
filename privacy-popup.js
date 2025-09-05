@@ -50,10 +50,11 @@
 
   // YES -> remember + go to Privacy page
   bd.querySelector("#pp-yes").addEventListener("click", function () {
-    localStorage.setItem("policyAccepted", "1");
+    // localStorage.setItem("policyAccepted", "1");
     window.location.href = "privacy.html"; // change if your privacy page lives elsewhere
   });
 
   // NO -> just close
   bd.querySelector("#pp-no").addEventListener("click", closeGate);
 })();
+
